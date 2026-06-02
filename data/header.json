@@ -1,0 +1,27 @@
+{
+  "menu": [
+    {
+      "name": "Home",
+      "url": "/home"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Projects",
+      "url": "#",
+      "submenu": [
+        {
+          "name": "Projects Academiques",
+          "urlsubmenu": "/projects-academiques"
+        },
+        {
+          "name": "Projects Profetionnels",
+          "urlsubmenu": "/projects-profetionnels"
+        }
+      ]
+    },
+    { "name": "Contact", "url": "/contact" }
+  ]
+}
