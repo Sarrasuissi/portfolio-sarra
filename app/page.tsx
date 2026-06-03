@@ -3,16 +3,7 @@ export default function Home() {
     <main className="bg-black text-white min-h-screen">
 
       {/* NAVBAR */}
-      <nav className="flex justify-between items-center px-10 py-6 border-b border-gray-800">
-        <h1 className="text-xl font-bold">Sarra</h1>
-
-        {/* <ul className="flex gap-6 text-gray-300">
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul> */}
-      </nav>
+     
 
       {/* HERO */}
       <section className="flex flex-col items-center justify-center text-center h-[80vh]">
@@ -57,6 +48,7 @@ export default function Home() {
       </section>
 
     </main>
+    // <div>home</div>
   );
 }
 
